@@ -1,0 +1,26 @@
+.container {
+  max-width: 1280px;
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.menu {
+  ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+
+    li > a {
+      color: var(--main);
+      margin-inline: 1rem;
+      font-weight: bold;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}

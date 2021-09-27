@@ -1,0 +1,24 @@
+:root {
+  --main: #EA7C26;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #fffafa;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+* {
+  box-sizing: border-box;
+}
